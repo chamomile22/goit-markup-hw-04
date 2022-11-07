@@ -333,6 +333,7 @@ img{
     border-radius: 50%;
 
     display: flex;
+    justify-content: center;
     align-items: center;
 
     color: var(--icons-color);
@@ -373,6 +374,7 @@ img{
     padding: 16px 32px;
 
     display: flex;
+    justify-content: center;
     align-items: center;
 
     border: 1px solid var(--icons-color);
@@ -440,6 +442,7 @@ img{
 }
 
 .footer-socials{
+    margin-top: 12px;
     margin-left: 70px;
 }
 .footer-socials-header{
@@ -473,12 +476,12 @@ img{
     border-radius: 50%;
 
     display: flex;
+    justify-content: center;
     align-items: center;
 
-    color: var(--icons-color);
+    color: var(--third-text-color);
 }
 .footer-socials-link:hover, .footer-socials-link:focus{
-    color: var(--third-text-color);
     background-color: var(--accent-color);
 }
 .footer-socials-icon{
